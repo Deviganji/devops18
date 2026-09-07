@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "one" {
-  bucket = "july2026bucket"
+  bucket = "sep2026bucket"
 }
 
 resource "aws_s3_bucket_ownership_controls" "two" {
