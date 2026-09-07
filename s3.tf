@@ -23,5 +23,13 @@ status = "Enabled"
 }
 }
 
+terraform {
+backend "s3" {
+region = "us-east-1"
+bucket = "sep2026bucket"
+key = "prod/terraform.tfstate"
+}
+}
+
 
 
