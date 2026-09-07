@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "one" {
-  bucket = "arpilbucket.2026.gdp"
+  bucket = "july2026bucket"
 }
 
 resource "aws_s3_bucket_ownership_controls" "two" {
